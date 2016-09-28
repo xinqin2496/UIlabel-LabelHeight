@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04041A711D9BA4D500279F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04041A701D9BA4D500279F35 /* main.m */; };
+		04041A741D9BA4D500279F35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04041A731D9BA4D500279F35 /* AppDelegate.m */; };
+		04041A771D9BA4D500279F35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04041A761D9BA4D500279F35 /* ViewController.m */; };
+		04041A7A1D9BA4D500279F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04041A781D9BA4D500279F35 /* Main.storyboard */; };
+		04041A7C1D9BA4D500279F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04041A7B1D9BA4D500279F35 /* Assets.xcassets */; };
+		04041A7F1D9BA4D500279F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04041A7D1D9BA4D500279F35 /* LaunchScreen.storyboard */; };
+		04041A8A1D9BA4D500279F35 /* __lable______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04041A891D9BA4D500279F35 /* __lable______UITests.m */; };
+		04041A961D9BA4FC00279F35 /* UILabel+LabelHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 04041A951D9BA4FC00279F35 /* UILabel+LabelHeight.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04041A861D9BA4D500279F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04041A641D9BA4D500279F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04041A6B1D9BA4D500279F35;
+			remoteInfo = "计算lable的高度和行距";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04041A6C1D9BA4D500279F35 /* 计算lable的高度和行距.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计算lable的高度和行距.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04041A701D9BA4D500279F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04041A721D9BA4D500279F35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04041A731D9BA4D500279F35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04041A751D9BA4D500279F35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04041A761D9BA4D500279F35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04041A791D9BA4D500279F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04041A7B1D9BA4D500279F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04041A7E1D9BA4D500279F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04041A801D9BA4D500279F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04041A851D9BA4D500279F35 /* 计算lable的高度和行距UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计算lable的高度和行距UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04041A891D9BA4D500279F35 /* __lable______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__lable______UITests.m"; sourceTree = "<group>"; };
+		04041A8B1D9BA4D500279F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04041A941D9BA4FC00279F35 /* UILabel+LabelHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LabelHeight.h"; sourceTree = "<group>"; };
+		04041A951D9BA4FC00279F35 /* UILabel+LabelHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LabelHeight.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04041A691D9BA4D500279F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04041A821D9BA4D500279F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04041A631D9BA4D500279F35 = {
+			isa = PBXGroup;
+			children = (
+				04041A6E1D9BA4D500279F35 /* 计算lable的高度和行距 */,
+				04041A881D9BA4D500279F35 /* 计算lable的高度和行距UITests */,
+				04041A6D1D9BA4D500279F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04041A6D1D9BA4D500279F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04041A6C1D9BA4D500279F35 /* 计算lable的高度和行距.app */,
+				04041A851D9BA4D500279F35 /* 计算lable的高度和行距UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04041A6E1D9BA4D500279F35 /* 计算lable的高度和行距 */ = {
+			isa = PBXGroup;
+			children = (
+				04041A721D9BA4D500279F35 /* AppDelegate.h */,
+				04041A731D9BA4D500279F35 /* AppDelegate.m */,
+				04041A751D9BA4D500279F35 /* ViewController.h */,
+				04041A761D9BA4D500279F35 /* ViewController.m */,
+				04041A941D9BA4FC00279F35 /* UILabel+LabelHeight.h */,
+				04041A951D9BA4FC00279F35 /* UILabel+LabelHeight.m */,
+				04041A781D9BA4D500279F35 /* Main.storyboard */,
+				04041A7B1D9BA4D500279F35 /* Assets.xcassets */,
+				04041A7D1D9BA4D500279F35 /* LaunchScreen.storyboard */,
+				04041A801D9BA4D500279F35 /* Info.plist */,
+				04041A6F1D9BA4D500279F35 /* Supporting Files */,
+			);
+			path = "计算lable的高度和行距";
+			sourceTree = "<group>";
+		};
+		04041A6F1D9BA4D500279F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04041A701D9BA4D500279F35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04041A881D9BA4D500279F35 /* 计算lable的高度和行距UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04041A891D9BA4D500279F35 /* __lable______UITests.m */,
+				04041A8B1D9BA4D500279F35 /* Info.plist */,
+			);
+			path = "计算lable的高度和行距UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04041A6B1D9BA4D500279F35 /* 计算lable的高度和行距 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04041A8E1D9BA4D500279F35 /* Build configuration list for PBXNativeTarget "计算lable的高度和行距" */;
+			buildPhases = (
+				04041A681D9BA4D500279F35 /* Sources */,
+				04041A691D9BA4D500279F35 /* Frameworks */,
+				04041A6A1D9BA4D500279F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计算lable的高度和行距";
+			productName = "计算lable的高度和行距";
+			productReference = 04041A6C1D9BA4D500279F35 /* 计算lable的高度和行距.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04041A841D9BA4D500279F35 /* 计算lable的高度和行距UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04041A911D9BA4D500279F35 /* Build configuration list for PBXNativeTarget "计算lable的高度和行距UITests" */;
+			buildPhases = (
+				04041A811D9BA4D500279F35 /* Sources */,
+				04041A821D9BA4D500279F35 /* Frameworks */,
+				04041A831D9BA4D500279F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04041A871D9BA4D500279F35 /* PBXTargetDependency */,
+			);
+			name = "计算lable的高度和行距UITests";
+			productName = "计算lable的高度和行距UITests";
+			productReference = 04041A851D9BA4D500279F35 /* 计算lable的高度和行距UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04041A641D9BA4D500279F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "zhengwenqing’s mac";
+				TargetAttributes = {
+					04041A6B1D9BA4D500279F35 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					04041A841D9BA4D500279F35 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04041A6B1D9BA4D500279F35;
+					};
+				};
+			};
+			buildConfigurationList = 04041A671D9BA4D500279F35 /* Build configuration list for PBXProject "计算lable的高度和行距" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04041A631D9BA4D500279F35;
+			productRefGroup = 04041A6D1D9BA4D500279F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04041A6B1D9BA4D500279F35 /* 计算lable的高度和行距 */,
+				04041A841D9BA4D500279F35 /* 计算lable的高度和行距UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04041A6A1D9BA4D500279F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04041A7F1D9BA4D500279F35 /* LaunchScreen.storyboard in Resources */,
+				04041A7C1D9BA4D500279F35 /* Assets.xcassets in Resources */,
+				04041A7A1D9BA4D500279F35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04041A831D9BA4D500279F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04041A681D9BA4D500279F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04041A771D9BA4D500279F35 /* ViewController.m in Sources */,
+				04041A741D9BA4D500279F35 /* AppDelegate.m in Sources */,
+				04041A961D9BA4FC00279F35 /* UILabel+LabelHeight.m in Sources */,
+				04041A711D9BA4D500279F35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04041A811D9BA4D500279F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04041A8A1D9BA4D500279F35 /* __lable______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04041A871D9BA4D500279F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04041A6B1D9BA4D500279F35 /* 计算lable的高度和行距 */;
+			targetProxy = 04041A861D9BA4D500279F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04041A781D9BA4D500279F35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04041A791D9BA4D500279F35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04041A7D1D9BA4D500279F35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04041A7E1D9BA4D500279F35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04041A8C1D9BA4D500279F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04041A8D1D9BA4D500279F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04041A8F1D9BA4D500279F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计算lable的高度和行距/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengwenqing.--lable------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04041A901D9BA4D500279F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计算lable的高度和行距/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengwenqing.--lable------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04041A921D9BA4D500279F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "计算lable的高度和行距UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengwenqing.--lable------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "计算lable的高度和行距";
+			};
+			name = Debug;
+		};
+		04041A931D9BA4D500279F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "计算lable的高度和行距UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengwenqing.--lable------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "计算lable的高度和行距";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04041A671D9BA4D500279F35 /* Build configuration list for PBXProject "计算lable的高度和行距" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04041A8C1D9BA4D500279F35 /* Debug */,
+				04041A8D1D9BA4D500279F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04041A8E1D9BA4D500279F35 /* Build configuration list for PBXNativeTarget "计算lable的高度和行距" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04041A8F1D9BA4D500279F35 /* Debug */,
+				04041A901D9BA4D500279F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04041A911D9BA4D500279F35 /* Build configuration list for PBXNativeTarget "计算lable的高度和行距UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04041A921D9BA4D500279F35 /* Debug */,
+				04041A931D9BA4D500279F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04041A641D9BA4D500279F35 /* Project object */;
+}
