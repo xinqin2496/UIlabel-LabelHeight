@@ -4,7 +4,7 @@
 
 
     
-    NSString * conText = @"";
+    NSString * conText = @"这里写文本内容";
     UIFont * font = [UIFont systemFontOfSize:14]; //字号
     
     CGFloat lineSpace = 8;//行间距
